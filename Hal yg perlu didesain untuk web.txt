@@ -1,0 +1,3 @@
+hal yg perlu didesain untuk web:
+1. Timeline acara
+2. pictogram divisi
