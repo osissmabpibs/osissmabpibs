@@ -274,6 +274,20 @@ body {
   .title-perlombaan {
     margin-bottom: -1px;
   }
+
+  .border-backgrounds {
+    width: 100%;
+    height: 150vh;
+    background-image: url('web\ background\ about\ us\ 1\ \(A\).png');
+    background-size: cover;
+  }
+
+  .border-background2s {
+    width: 100%;
+    height: 140vh;
+    background-image: url('web\ background\ welcome\ 1D\ mobile.png');
+    background-size: cover;
+  }
 }
 
 .border-background {
@@ -322,7 +336,7 @@ body {
 }
 
 .hero-section2 .hero-about {
-  max-width: 50%;
+  max-width: 70%;
   color: #000;
 }
 
@@ -493,7 +507,4 @@ body {
   .hero-section img {
     display: none;
   }
-
-
-
 }
