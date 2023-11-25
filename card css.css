@@ -90,6 +90,7 @@
     color: #191d88ff;
     transition: all 0.3s linear;
     margin-left: -15px;
+    text-decoration: none;
 }
 
 .btns a:first-child {
