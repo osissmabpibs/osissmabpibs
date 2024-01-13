@@ -1,0 +1,61 @@
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card-01{
+    background: #03D29F;
+    position: relative;
+    flex: 1;
+    max-width: 300px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-02{
+    padding: 700px 50px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+  }
+  
+  .card-03{
+    padding: 110px 280px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+  }
+
+  .logo-sponsor{
+    margin-left: -120px;
+    width: 140%;
+  }
+
+  .garis{
+    padding: 2px 5px;
+    background-color: black;
+  }
+  
+  @media (max-width:800px){
+    .card-01{
+      flex: 100%;
+      max-width: 600px;
+    }
+  
+    .card-02{
+      flex: 100%;
+      max-width: 600px;
+    }
+  
+    .card-03{
+      flex: 100%;
+      max-width: 600px;
+    }
+  }
+        
