@@ -1,0 +1,105 @@
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#text {
+    position: absolute;
+    font-size: 5em;
+    color: black;
+    text-shadow: 2px 4px 5px #f9f9f9;
+    align-items: center;
+    z-index: -200;
+}
+
+#aboutus {
+    z-index: -100;
+}
+
+#teaser {
+    z-index: -100;
+}
+
+#competition {
+    z-index: -100;
+}
+
+#pilar-kanan {
+    z-index: -200;
+}
+
+#pilar-kiri {
+    z-index: -200;
+}
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+#pilar-kiri {
+    transform: translateX(-10px);
+    width: 25%;
+    position: fixed;
+}
+
+#pilar-kanan {
+    transform: translateX(10px);
+    width: 25%;
+    position: fixed;
+}
+
+.sec {
+    position: relative;
+    background: transparent;
+    padding: 30px 100px;
+    z-index: 100;
+    padding-top: 45%;
+    max-width: 1300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sechp {
+    position: relative;
+    background: transparent;
+    padding: 30px 100px;
+    z-index: 100;
+    max-width: 1300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec h2 {
+    font-size: 3em;
+    color: white;
+}
+
+.sec p {
+    font-size: 1em;
+    color: white;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.sechp h2 {
+    font-size: 3em;
+    color: white;
+}
+
+.sechp p {
+    font-size: 1em;
+    color: white;
+    font-weight: 300;
+    text-align: justify;
+}
