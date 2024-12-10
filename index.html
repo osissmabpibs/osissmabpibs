@@ -2,842 +2,534 @@
 <html lang="en">
 
 <head>
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>OSIS SMA BPIBS</title>
-  <link rel="shortcut icon" href="Logo Osis banh (5).png" />
-  <link rel="stylesheet" href="Style.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-  <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="card css.css">
-  <link rel="stylesheet" href="sponsor css.css">
-  
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-
-  <!-- Footer CSS -->
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="css footer.css">
-  <script src="fontawesome/all.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AISC</title>
+  <link rel="stylesheet" href="Styles.css">
+  <link rel="stylesheet" href="parallax.css">
+  <link rel="stylesheet" href="Footer.css">
+  <link rel="stylesheet" href="Timeline.css">
+  <link rel="stylesheet" href="card.css">
 
-  <style>
-    @media (min-width: 768px) {
-      .responsive-iframe {
-        display: none;
-      }
-    }
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    @media (min-width: 768px) {
-      .responsive-word {
-        display: none;
-      }
-    }
-
-    @media (min-width: 768px) {
-      .responsive-card {
-        display: none;
-      }
-    }
-  </style>
-
-  <style>
-    @media (max-width: 768px) {
-      .responsive-iframe2 {
-        display: none;
-      }
-    }
-
-    @media (max-width: 768px) {
-      .responsive-word2 {
-        display: none;
-      }
-    }
-
-    @media (max-width: 768px) {
-      .responsive-card2 {
-        display: none;
-      }
-
-      .card-up {
-        margin-top: -50px;
-      }
-
-      .card-up2 {
-        margin-top: -500px;
-      }
-    }
-  </style>
-
-  <style>
-
-    @media (max-width: 1020px) {
-      .btns-left {
-        margin-left: -25px;
-      }
-    }
-
-  </style>
-
+  <link rel="stylesheet" href="https://cdn.jssc.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
   <header class="header">
+    <a href="#" class="logo"><img src="Logo Osis banh (2).png" width="60px"></a>
+
+    <input type="checkbox" name="" id="cek">
+    <label for="cek" class="icon">
+      <i class='bx bx-menu' id="menu"></i>
+      <i class='bx bx-x' id="x"></i>
+    </label>
+
     <nav class="navbar">
-      <h2 class="logo"><a href="#"><img src="Logo Osis banh (5).png" width="60px"></a></h2>
-      <input type="checkbox" id="menu-toggle" />
-      <label for="menu-toggle" id="hamburger-btn">
-        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
-          <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-        </svg>
-      </label>
-      <ul class="links">
-        <li><a href="index.html">AISC</a></li>
-      </ul>
+      <a href="#AboutUs" style="--i:0">About us</a>
+      <a href="#timeline" style="--i:1">Timeline</a>
+      <a href="#competition" style="--i:2">competition</a>
     </nav>
   </header>
 
-  <br>
-  <br>
-  <br>
-  <br>
-
-  <section class="hero-section2 border-background2 responsive-word2">
-    <div class="hero">
-      <br class="responsive-card">
-      <br class="responsive-card">
-      <br class="responsive-card">
-      <br class="responsive-card">
-      <br class="responsive-card">
-      <br class="responsive-card">
-      <br class="responsive-card">
-      <br class="responsive-card">
-      <br class="responsive-card">
-      <br class="responsive-card">
-
-      <h1 class="welcome">Welcome to AISC BPIBS 2024</h1>
-      <p class="text-center, welcome">
-        Sebuah kesempatan yang menyenangkan untuk bersama-sama menjadikan keberhasilan dan kegagalan sebagai langkah menuju masa depan nan cerah.
-      </p>
-      <h3 class="fw-bold, text-center">"Ready to excel into a brighter future"</h3>
-      <div class="buttons">
-        <a href="#card" class="join">Daftar</a>
-        <a href="https://drive.google.com/file/d/1XBiRyqp7Yf_8Pi9ncevmBzKAhgS3GW43/view?usp=sharing" class="learn">Guidebook</a>
-      </div>
-    </div>
-    <div class="img">
-      <iframe class="responsive-iframe2" width="560" height="315"
-        src="https://www.youtube.com/embed/dF9MIGpWV2Y?si=NQHmeH8hieflo2tg" title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
-    </div>
+  <section class="parallax">
+    <img src="logo-aisckecil.png" id="text">
+    <img id="kanan" src="pilar-kanan.png">
+    <img id="kiri" src="pilar-kiri.png">
+    <img src="aboutus.png" id="aboutus" class="hp">
+    <img src="abouthp.png" id="aboutus" class="laptop">
+    <img src="teaser.png" id="teaser" class="hp">
+    <img src="competition.png" id="competition">
+    <img src="text-about.png" class="text-about laptop">
   </section>
 
-  <section class="hero-section2 border-background2s responsive-word">
-    <div class="hero">
-      <br class="responsive-card">
-      <br class="responsive-card">
-      <br class="responsive-card">
-      <br class="responsive-card">
-      <br class="responsive-card">
-      <br class="responsive-card">
-      <br class="responsive-card">
-      <br class="responsive-card">
-      <br class="responsive-card">
-      <br class="responsive-card">
-      <br class="responsive-card">
-      <br class="responsive-card">
-      <br class="responsive-card">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
 
-      <h1 class="welcome">Welcome to AISC BPIBS 2024</h1>
-      <p class="text-center, welcome">
-        Sebuah kesempatan yang menyenangkan untuk bersama-sama menjadikan keberhasilan dan kegagalan sebagai langkah menuju masa depan nan cerah.
-      </p>
-      <h3 class="fw-bold, text-center">"Ready to excel into a brighter future"</h3>
-      <div class="buttons">
-        <a href="#card" class="join">Daftar</a>
-        <a href="https://drive.google.com/file/d/1XBiRyqp7Yf_8Pi9ncevmBzKAhgS3GW43/view?usp=sharing" class="learn">Guidebook</a>
-      </div>
-    </div>
+  <section class="sechp" id="AboutUs">
+    <h2 class="laptop">About Us</h2>
+    <p class="laptop">
+      AISC BPIBS 2025 atau Annual Islamic Student Competition Bintang Pelajar Islamic
+      Boarding School 2025 merupakan acara tahunan yang dipersembahkan oleh OSIS SMP dan
+      SMA BPIBS. AISC BPIBS 2024 dilaksanakan dalam bentuk tiga kegiatan utama, yaitu;
+      perlombaan akademik dan nonakademik, bazar, dan kajian keislaman yang akan diikuti
+      oleh kalangan pelajar, warga BPIBS, dan masyarakat umum. Fokus utama dari AISC
+      BPIBS 2025 adalah mendorong dan memfasilitasi pelajar SD, SMP, maupun SMA/sederajat
+      untuk mengembangkan minat dan bakatnya melalui serangkaian perlombaan yang
+      diselenggarakan.
+    </p>
   </section>
 
-  <div class="video-box responsive-word">
-    <iframe class="responsive-iframe" width="100%" height="190px"
-        src="https://www.youtube.com/embed/dF9MIGpWV2Y?si=NQHmeH8hieflo2tg" title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
-  </div>
+  <section class="sec" id="AboutUs">
+    <h2>About Us</h2>
+    <p>
+      AISC BPIBS 2025 atau Annual Islamic Student Competition Bintang Pelajar Islamic
+      Boarding School 2025 merupakan acara tahunan yang dipersembahkan oleh OSIS SMP dan
+      SMA BPIBS. AISC BPIBS 2024 dilaksanakan dalam bentuk tiga kegiatan utama, yaitu;
+      perlombaan akademik dan nonakademik, bazar, dan kajian keislaman yang akan diikuti
+      oleh kalangan pelajar, warga BPIBS, dan masyarakat umum. Fokus utama dari AISC
+      BPIBS 2025 adalah mendorong dan memfasilitasi pelajar SD, SMP, maupun SMA/sederajat
+      untuk mengembangkan minat dan bakatnya melalui serangkaian perlombaan yang
+      diselenggarakan.
+    </p>
+  </section>
+
+  <script src="parallax.js"></script>
 
   <a href="https://api.whatsapp.com/send?phone=+62 878-1212-3008&text=Assalamu'alaikum" target="_blank">
     <button class="btn-floating whatsapp">
-      <img width="30px" src="logo_wa-removebg-preview.png" alt="wa">
+      <img width="30px" src="Logo WA banh.png" alt="wa">
       <span>Call Center</span>
     </button>
   </a>
 
-  <br>
-  <br>
-  <br>
-  <br class="responsive-card">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
 
-  <section class="hero-section2 border-background up1 responsive-word2">
-    <section class="hero-section">
-      <div class="hero-about about">
-        <h1 class="text-center">About us</h1>
-        <p class="text-center">AISC BPIBS 2024 atau Annual Islamic Student Competition Bintang Pelajar Islamic Boarding
-          School 2024 merupakan acara tahunan OSIS SMP dan SMA BPIBS. AISC BPIBS 2024 dilaksanakan dalam bentuk tiga
-          kegiatan utama yaitu: lomba akademik dan nonakademik, bazar, dan kajian keislaman yang akan diikuti oleh
-          kalangan pelajar, warga BPIBS, dan masyarakat umum. Fokus utama AISC BPIBS 2024 adalah mendorong dan
-          memfasilitasi pelajar SD, SMP, dan SMA/sederajat untuk mengembangkan minat dan bakatnya melalui serangkaian
-          perlombaan yang diselenggarakan.
-        </p>
-      </div>
-    </section>
+  <h1 id="timeline">Timeline AISC 2025</h1>
+  <section class="timeline">
+    <div class="timeline-line">
+      <span class="timeline-innerline"></span>
+    </div>
+
+    <ul>
+      <li>
+        <span class="timeline-point"></span>
+        <span class="date">2000</span>
+        <p>Lorem, ipsum dolor sit amet</p>
+      </li>
+      <li>
+        <span class="timeline-point"></span>
+        <span class="date">2005</span>
+        <p>Lorem, ipsum dolor sit amet</p>
+      </li>
+      <li>
+        <span class="timeline-point"></span>
+        <span class="date">2010</span>
+        <p>Lorem, ipsum dolor sit amet</p>
+      </li>
+      <li>
+        <span class="timeline-point"></span>
+        <span class="date">2015</span>
+        <p>Lorem, ipsum dolor sit amet</p>
+      </li>
+      <li>
+        <span class="timeline-point"></span>
+        <span class="date">2020</span>
+        <p>Lorem, ipsum dolor sit amet</p>
+      </li>
+      <li>
+        <span class="timeline-point"></span>
+        <span class="date">2025</span>
+        <p>Lorem, ipsum dolor sit amet</p>
+      </li>
+    </ul>
+    <script src="Timeline.js"></script>
   </section>
 
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">  
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
 
+  <div class="slide-container swiper" id="lomba">
+    <div class="slide-content">
+      <div class="card-wrapper swiper-wrapper">
+        <div class="card swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+              <img src="basket25.png" alt="" class="card-img">
+            </div>
+          </div>
+
+          <div class="card-content">
+            <h2 class="name">Basket</h2>
+            <p class="description">The lorem text the section that contains header with having open functionality. Lorem
+              dolor sit amet consectetur adipisicing elit.</p>
+
+            <button class="button">View More</button>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+              <img src="futsal25.png" alt="" class="card-img">
+            </div>
+          </div>
+
+          <div class="card-content">
+            <h2 class="name">Futsal</h2>
+            <p class="description">The lorem text the section that contains header with having open functionality. Lorem
+              dolor sit amet consectetur adipisicing elit.</p>
+
+            <button class="button">View More</button>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+              <img src="mhq25.png" alt="" class="card-img">
+            </div>
+          </div>
+
+          <div class="card-content">
+            <h2 class="name">MHQ</h2>
+            <p class="description">The lorem text the section that contains header with having open functionality. Lorem
+              dolor sit amet consectetur adipisicing elit.</p>
+
+            <button class="button">View More</button>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+              <img src="infografis25.png" alt="" class="card-img">
+            </div>
+          </div>
+
+          <div class="card-content">
+            <h2 class="name">Infografis</h2>
+            <p class="description">The lorem text the section that contains header with having open functionality. Lorem
+              dolor sit amet consectetur adipisicing elit.</p>
+
+            <button class="button">View More</button>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+              <img src="essay25.png" alt="" class="card-img">
+            </div>
+          </div>
+
+          <div class="card-content">
+            <h2 class="name">Essay</h2>
+            <p class="description">The lorem text the section that contains header with having open functionality. Lorem
+              dolor sit amet consectetur adipisicing elit.</p>
+
+            <button class="button">View More</button>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+              <img src="speech25.png" alt="" class="card-img">
+            </div>
+          </div>
+
+          <div class="card-content">
+            <h2 class="name">Speech</h2>
+            <p class="description">The lorem text the section that contains header with having open functionality. Lorem
+              dolor sit amet consectetur adipisicing elit.</p>
+
+            <button class="button">View More</button>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+              <img src="panahan25.png" alt="" class="card-img">
+            </div>
+          </div>
+
+          <div class="card-content">
+            <h2 class="name">Panahan</h2>
+            <p class="description">The lorem text the section that contains header with having open functionality. Lorem
+              dolor sit amet consectetur adipisicing elit.</p>
+
+            <button class="button">View More</button>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+              <img src="lccit25.png" alt="" class="card-img">
+            </div>
+          </div>
+
+          <div class="card-content">
+            <h2 class="name">LCC IT</h2>
+            <p class="description">The lorem text the section that contains header with having open functionality. Lorem
+              dolor sit amet consectetur adipisicing elit.</p>
+
+            <button class="button">View More</button>
+          </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+              <img src="lcc25.png" alt="" class="card-img">
+            </div>
+          </div>
+
+          <div class="card-content">
+            <h2 class="name">LCC</h2>
+            <p class="description">The lorem text the section that contains header with having open functionality. Lorem
+              dolor sit amet consectetur adipisicing elit.</p>
+
+            <button class="button">View More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-button-next swiper-navBtn"></div>
+    <div class="swiper-button-prev swiper-navBtn"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
+  <br class="hp">
   
+  <footer class="footer up-footer">
+    <div class="footer">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Media Sosial</h4>
+          <div class="social-links">
+            <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fab fa-google"></i></a>
+            <a href="https://www.instagram.com/AISCIkhwan/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@kisah-timjurnalistiksmabpis/featured"><i class="fab fa-youtube"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=+62 878-1212-3008&amp;text=Assalamu'alaikum"><i
+                class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="footer-col responsive-word">
+          <h4>Lokasi</h4>
+          <div class="img">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.688125385199!2d106.78595687491676!3d-6.560994964137734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5df9b885091%3A0x76de3f67900d4a3!2sBPIBS%20(Kampus%20Ikhwan)!5e0!3m2!1sid!2sid!4v1696057032231!5m2!1sid!2sid"
+              width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
-<br>
-<br>
-<br>
-<br>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<body>
-  <section id="card"></section>
-  <section class="border-background4 responsive-word">
-    <div class="row container">
-      <br class="responsive-word">
-      <br class="responsive-word">
-      <br class="responsive-word">
-      <br class="responsive-word">
-      <br class="responsive-word">
-      <br class="responsive-word">
-      <br class="responsive-word">
-      <br class="responsive-word">
-      <br class="responsive-word">
-      <br class="responsive-word">
-      <br class="responsive-word">
-      <br class="responsive-word">
-      <br class="responsive-word">
-      <br class="responsive-word">
-      <br class="responsive-word">
-      <br class="responsive-word">
-      <br class="responsive-word">
-      <br class="responsive-word">
-      <br class="responsive-word">
-      <br class="responsive-word">
-
-
-      <section class="hero-section3 responsive-word">
-        <div class="hero text-center down">
-          <h1 class="down2">Perlombaan SD</h1>
-          <br class="responsive-word">
-          <br class="responsive-word">
-          <br class="responsive-word">
-          <br class="responsive-word">
-          <br class="responsive-word">
-          <br class="responsive-word">
-          <br class="responsive-word">
-          <br class="responsive-word">
-          <br class="responsive-word">
-          <br class="responsive-word">
-          <br class="responsive-word">
-          <br class="responsive-word">
-
-        </div>
-      </section>
-
-      <div class="box-center box-up">
-        <div class="box">
-          <div class="image">
-            <img src="Futsal.png">
-          </div>
-          <div class="name_job">Futsal</div>
-          <div class="name_job">SD</div>
-          <div class="btns">
-            <a href="https://forms.gle/93Hc9vFZ1UcxsojdA" class="text-center">Daftar</a>
-            <a href="https://drive.google.com/file/d/19UenwePRxJ72DykxfeZawyRaBckqlYrx/view?usp=sharing" class="text-center" target="_blank" >Juknis</a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="MHQ (1).png" alt="">
-          </div>
-          <div class="name_job">MHQ</div>
-          <div class="name_job">SD</div>
-          <div class="btns">
-            <a href="https://forms.gle/64ZB2x4LQsgxNxua6" class="text-center">Daftar </a>
-            <a href="https://drive.google.com/file/d/1pK1BuCpLCcgYslcF9ZmCymwk1O8OAwyn/view?usp=sharing"
-              class="text-center" target="_blank" >Juknis</a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="Speech.png" alt="">
-          </div>
-          <div class="name_job">Pildacil</div>
-          <div class="name_job">SD</div>
-          <div class="btns">
-            <a href="https://forms.gle/2ZFUfQZmP7tjnPiF8" class="text-center">Daftar</a>
-            <a href="https://drive.google.com/file/d/1PNEz2KNwMK76VRdHoIY3TOOyBMhFhmnV/view?usp=sharing"
-              class="text-center" target="_blank" >Juknis</a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="LCC (1).png">
-          </div>
-          <div class="name_job">LCCIT</div>
-          <div class="name_job">SD</div>
-          <div class="btns">
-            <a href="https://forms.gle/K9VJdsHVrEzzwXc4A" class="text-center">Daftar</a>
-            <a href="https://drive.google.com/file/d/14okus8XJuhdqFje_wAvgyhxjps2eQFKU/view?usp=sharing"
-              class="text-center" target="_blank" >Juknis</a>
-          </div>
-        </div>
-      </div>
-
-      <section class="hero-section4 title-perlombaan"></section>
-
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-
-
-      <section class="hero-section3 responsive-word box-up down">
-        <div class="hero text-center down">
-          <h1 class="down2">Perlombaan SMP</h1>
-        </div>
-      </section>
-
-
-      <br>
-      <br>
-      <br>
-      <br>
-
-      <div class="box-center down2">
-        <div class="box">
-          <div class="image">
-            <img src="Basket (1).png">
-          </div>
-          <div class="name_job">Basket</div>
-          <div class="name_job">SMP</div>
-          <div class="btns">
-            <a href="https://forms.gle/HDHk1Xg2VyQEqC1k6" class="text-center">Daftar</a>
-            <a href="https://drive.google.com/file/d/1qKX2sVzsJRrYP51S-qQgICM4AGl_Lq4e/view?usp=sharing" class="text-center" target="_blank">Juknis</a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="LCC (1).png">
-          </div>
-          <div class="name_job">LCC</div>
-          <div class="name_job">SMP</div>
-          <div class="btns">
-            <a href="https://forms.gle/gQcGaUSxmnDiJXz99" class="text-center">Daftar</a>
-            <a href="https://drive.google.com/file/d/1tCkdXokgK44u2BK_Aq0vxhA3eKs6AM16/view?usp=sharing"
-              class="text-center" target="_blank" >Juknis</a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="MHQ (1).png" alt="">
-          </div>
-          <div class="name_job">MHQ</div>
-          <div class="name_job">SMP</div>
-          <div class="btns">
-            <a href="https://forms.gle/64ZB2x4LQsgxNxua6" class="text-center">Daftar </a>
-            <a href="https://drive.google.com/file/d/1pK1BuCpLCcgYslcF9ZmCymwk1O8OAwyn/view?usp=sharing"
-              class="text-center" target="_blank" >Juknis</a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="Speech.png" alt="">
-          </div>
-          <div class="name_job">Speech</div>
-          <div class="name_job">SMP</div>
-          <div class="btns">
-            <a href="https://forms.gle/QLwoNvjVtpUth3H48" class="text-center">Daftar</a>
-            <a href="https://drive.google.com/file/d/1G4nxxezMiIe4mNvC0Bmp7iiKNvudCOzB/view?usp=sharing"
-              class="text-center" target="_blank">Juknis</a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="Panahan.png">
-          </div>
-          <div class="name_job">Panahan</div>
-          <div class="name_job">SMP</div>
-          <div class="btns">
-            <a href="https://forms.gle/Xu6cjPsEj2zShviX8" class="text-center">Daftar</a>
-            <a href="https://drive.google.com/file/d/1nxyeNtc86K_jHk9Y2mNVXideKv_M_Gqd/view?usp=sharing"
-              class="text-center" target="_blank">Juknis</a>
-          </div>
-        </div>
-      </div>
-
-      <section class="hero-section4 title-perlombaan"></section>
-
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-
-      <section class="hero-section3 down2 responsive-word">
-        <div class="hero text-center down">
-          <h1 class="down2">Perlombaan SMA</h1>
-        </div>
-      </section>
-
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-
-      <div class="box-center down2">
-        <div class="box">
-          <div class="image">
-            <img src="Basket (1).png">
-          </div>
-          <div class="name_job">Basket</div>
-          <div class="name_job">SMA</div>
-          <div class="btns">
-            <a href="https://forms.gle/HDHk1Xg2VyQEqC1k6" class="text-center">Daftar</a>
-            <a href="https://drive.google.com/file/d/1qKX2sVzsJRrYP51S-qQgICM4AGl_Lq4e/view?usp=sharing" class="text-center" target="_blank" >Juknis</a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="Essay (1).png" alt="">
-          </div>
-          <div class="name_job">Essay</div>
-          <div class="name_job">SMA</div>
-          <div class="btns">
-            <a href="https://forms.gle/3WJdbkCbgsepUavD7" class="text-center">Daftar </a>
-            <a href="https://drive.google.com/file/d/1EnxoJYF53ODQt5KAY_Q6kTJI_hRqQurS/view?usp=sharing" class="text-center" target="_blank">Juknis</a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="Infografis (1).png" alt="">
-          </div>
-          <div class="name_job">Infografis</div>
-          <div class="name_job">SMA</div>
-          <div class="btns">
-            <a href="https://forms.gle/nxwGun12The4dyPA6">Daftar</a>
-            <a href="https://drive.google.com/file/d/1yuhGNwP9gBeBwKjP8iwruuFcMiPlu4Qt/view?usp=sharing" target="_blank" >Juknis</a>
-          </div>
-        </div>
-      </div>
-
-      <section class="responsive-card2" id="card">
-
-    </div>
-  </section>
-
-  <section class="border-background3 responsive-word2">
-    <div class="row container">
-      <section class="hero-section3 down2 responsive-word2">
-        <div class="hero text-center">
-          <h1 class="up1">Perlombaan SD</h1>
-        </div>
-      </section>
-      <section>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <section>
-          <div class="hero-section">
-            <div class="box">
-              <div class="image">
-                <img src="Futsal.png">
-              </div>
-              <div class="name_job">Futsal</div>
-              <div class="name_job">SD</div>
-              <div class="btns btns-left">
-                <a href="https://forms.gle/93Hc9vFZ1UcxsojdA">Daftar</a>
-                <a href="https://drive.google.com/file/d/19UenwePRxJ72DykxfeZawyRaBckqlYrx/view?usp=sharing" class="text-center" target="_blank" >Juknis</a>
-              </div>
-            </div>
-            <div class="box">
-              <div class="image">
-                <img src="MHQ (1).png" alt="">
-              </div>
-              <div class="name_job">MHQ</div>
-              <div class="name_job">SD</div>
-              <div class="btns btns-left">
-                <a href="https://forms.gle/64ZB2x4LQsgxNxua6">Daftar </a>
-                <a href="https://drive.google.com/file/d/1pK1BuCpLCcgYslcF9ZmCymwk1O8OAwyn/view?usp=sharing"
-                  class="text-center" target="_blank" >Juknis</a>
-              </div>
-            </div>
-            <div class="box">
-              <div class="image">
-                <img src="Speech.png" alt="">
-              </div>
-              <div class="name_job">Pildacil</div>
-              <div class="name_job">SD</div>
-              <div class="btns btns-left">
-                <a href="https://forms.gle/2ZFUfQZmP7tjnPiF8">Daftar</a>
-                <a href="https://drive.google.com/file/d/1PNEz2KNwMK76VRdHoIY3TOOyBMhFhmnV/view?usp=sharing"
-                  class="text-center" target="_blank" >Juknis</a>
-              </div>
-            </div>
-            <div class="box">
-              <div class="image">
-                <img src="LCC (1).png" alt="">
-              </div>
-              <div class="name_job">LCCIT</div>
-              <div class="name_job">SD</div>
-              <div class="btns btns-left">
-                <a href="https://forms.gle/K9VJdsHVrEzzwXc4A">Daftar</a>
-                <a href="https://drive.google.com/file/d/14okus8XJuhdqFje_wAvgyhxjps2eQFKU/view?usp=sharing"
-                  class="text-center" target="_blank" >Juknis</a>
-              </div>
-            </div>
-
-          </div>
-        </section>
-
-        <br>
-        <br>
-
-        <section class="hero-section4 title-perlombaan"></section>
-
-        <section class="hero-section3 down2 responsive-word2">
-          <div class="hero text-center">
-            <h1 class="up">Perlombaan SMP</h1>
-          </div>
-        </section>
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <section>
-          <div class="hero-section">
-            <div class="box">
-              <div class="image">
-                <img src="Basket (1).png">
-              </div>
-              <div class="name_job">Basket</div>
-              <div class="name_job">SMP</div>
-              <div class="btns btns-left">
-                <a href="https://forms.gle/HDHk1Xg2VyQEqC1k6">Daftar</a>
-                <a href="https://drive.google.com/file/d/1qKX2sVzsJRrYP51S-qQgICM4AGl_Lq4e/view?usp=sharing" class="text-center" target="_blank" >Juknis</a>
-              </div>
-            </div>
-            <div class="box">
-              <div class="image">
-                <img src="LCC (1).png" alt="">
-              </div>
-              <div class="name_job">LCC</div>
-              <div class="name_job">SMP</div>
-              <div class="btns btns-left">
-                <a href="https://forms.gle/gQcGaUSxmnDiJXz99">Daftar</a>
-                <a href="https://drive.google.com/file/d/1tCkdXokgK44u2BK_Aq0vxhA3eKs6AM16/view?usp=sharing"
-                  class="text-center" target="_blank" >Juknis</a>
-              </div>
-            </div>
-            <div class="box">
-              <div class="image">
-                <img src="MHQ (1).png" alt="">
-              </div>
-              <div class="name_job">MHQ</div>
-              <div class="name_job">SMP</div>
-              <div class="btns btns-left">
-                <a href="https://forms.gle/64ZB2x4LQsgxNxua6">Daftar</a>
-                <a href="https://drive.google.com/file/d/1pK1BuCpLCcgYslcF9ZmCymwk1O8OAwyn/view?usp=sharing"
-                  class="text-center" target="_blank" >Juknis</a>
-              </div>
-            </div>
-            <div class="box">
-              <div class="image">
-                <img src="Speech.png" alt="">
-              </div>
-              <div class="name_job">Speech</div>
-              <div class="name_job">SMP</div>
-              <div class="btns btns-left">
-                <a href="https://forms.gle/QLwoNvjVtpUth3H48">Daftar </a>
-                <a href="https://drive.google.com/file/d/1G4nxxezMiIe4mNvC0Bmp7iiKNvudCOzB/view?usp=sharing"
-                  class="text-center" target="_blank" >Juknis</a>
-              </div>
-            </div>
-            <div class="box">
-              <div class="image">
-                <img src="Panahan.png" alt="">
-              </div>
-              <div class="name_job">Panahan</div>
-              <div class="name_job">SMP</div>
-              <div class="btns btns-left">
-                <a href="https://forms.gle/Xu6cjPsEj2zShviX8">Daftar</a>
-                <a href="https://drive.google.com/file/d/1nxyeNtc86K_jHk9Y2mNVXideKv_M_Gqd/view?usp=sharing"
-                  class="text-center" target="_blank" >Juknis</a>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <br>
-        <br>
-
-
-        <section class="hero-section4 title-perlombaan"></section>
-
-        <section class="hero-section3 down2 responsive-word2">
-          <div class="hero text-center">
-            <h1 class="up">Perlombaan SMA</h1>
-          </div>
-        </section>
-
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <section>
-          <div class="hero-section">
-            <div class="box">
-              <div class="image">
-                <img src="Basket (1).png">
-              </div>
-              <div class="name_job">Basket</div>
-              <div class="name_job">SMA</div>
-              <div class="btns btns-left">
-                <a href="https://forms.gle/HDHk1Xg2VyQEqC1k6">Daftar</a>
-                <a href="https://drive.google.com/file/d/1qKX2sVzsJRrYP51S-qQgICM4AGl_Lq4e/view?usp=sharing" class="text-center" target="_blank" >Juknis</a>
-              </div>
-            </div>
-            <div class="box">
-              <div class="image">
-                <img src="Essay (1).png" alt="">
-              </div>
-              <div class="name_job">Essay</div>
-              <div class="name_job">SMA</div>
-              <div class="btns btns-left">
-                <a href="https://forms.gle/3WJdbkCbgsepUavD7">Daftar </a>
-                <a href="https://drive.google.com/file/d/1EnxoJYF53ODQt5KAY_Q6kTJI_hRqQurS/view?usp=sharing" class="text-center" target="_blank" >Juknis</a>
-              </div>
-            </div>
-            <div class="box">
-              <div class="image">
-                <img src="Infografis (1).png" alt="">
-              </div>
-              <div class="name_job">Infografis</div>
-              <div class="name_job">SMA</div>
-              <div class="btns btns-left">
-                <a href="https://forms.gle/nxwGun12The4dyPA6">Daftar</a>
-                <a href="https://drive.google.com/file/d/1yuhGNwP9gBeBwKjP8iwruuFcMiPlu4Qt/view?usp=sharing" target="_blank" >Juknis</a>
-              </div>
-            </div>
-          </div>
-        </section>
-      </section>
-  </section>
-
-  <br class="responsive-card2">
-  <br class="responsive-card2">
-  <br class="responsive-card2">
-  <br class="responsive-card2">
-  <br class="responsive-card2">
-  <br class="responsive-card2">
-  <br class="responsive-card2">
-  <br class="responsive-card2">
-  <br class="responsive-word">
-  <br class="responsive-word">
-  <br class="responsive-word">
-  <br class="responsive-word">
-  <br class="responsive-word">
-  <br class="responsive-word">
-  <br class="responsive-word">
-  <br class="responsive-word">
-  <br class="responsive-word">
-  <br class="responsive-word">
-  <br class="responsive-word">
-  <br class="responsive-word">
-
-
-  <section class="hero-section">
-    <div class="hero up2 timeline-title">
-      <h1>Timeline</h1>
-    </div>
-  </section>
-
-  <br class="responsive-card1">
-
-  <div class="timeline">
-    <link rel="stylesheet" href="progress bar css.css">
-
-    <div class="container left-container">
-      <img src="panahan.png" alt="">
-      <div class="text-box">
-        <h2>Pendaftaran dan Registrasi</h2>
-        <small>27 November 2023—24 Januari 2024</small>
-        <p>Pendaftaran dapat dilakukan via Google form yang sudah tercantum di atas melalui tombol daftar.</p>
-        <span class="right-container-arrow"></span>
-      </div>
-    </div>
-
-    <div class="container right-container">
-      <img src="Essay (1).png" alt="">
-      <div class="text-box">
-        <h2>Pengumpulan Karya Online </h2>
-        <small>27 November 2023—24 Januari 2024</small>
-        <p>Pengumpulan karya online untuk cabang lomba Essay, Infografis, Speech, dan Pildacil.</p>
-        <span class="left-container-arrow"></span>
-      </div>
-    </div>
-
-    <div class="container left-container">
-      <img src="Infografis (1).png" alt="">
-      <div class="text-box">
-        <h2>Penjurian Karya Online</h2>
-        <small>24 Januari—31 Januari 2024</small>
-        <p>Periode penilaian karya-karya peserta oleh juri.</p>
-        <span class="right-container-arrow"></span>
-      </div>
-    </div>
-
-    <div class="container right-container">
-      <img src="Futsal.png" alt="">
-      <div class="text-box">
-        <h2>Technical Meeting</h2>
-        <small>25 Januari—26 Januari 2024</small>
-        <p>Technical Meeting akan dilakukan percabang lomba.</p>
-        <span class="left-container-arrow"></span>
-      </div>
-    </div>
-
-    <div class="container left-container">
-      <img src="LCC (1).png" alt="">
-      <div class="text-box">
-        <h2>Pelaksanaan Perlombaan Offline</h2>
-        <small>30 Januari—2 Februari 2024</small>
-        <p>Pelaksanaan cabang-cabang perlombaan Offline dan pengumuman pemenang-pemenang lomba.</p>
-        <span class="right-container-arrow"></span>
-      </div>
-    </div>
-
-    <div class="container right-container">
-      <img src="Basket (1).png" alt="">
-      <div class="text-box">
-        <h2>Pembagian Hadiah dan Kajian Islami</h2>
-        <small>3 Februari 2024</small>
-        <p>Puncak acara AISC BPIBS 2024</p>
-        <span class="left-container-arrow"></span>
-      </div>
-    </div>
-  </div>
-
-  <section class="hero-section2 border-background5 up1 responsive-word2">
-    <section class="hero-section">
-      <div class="hero-sponsor about">
-        <h1>Our Sponsors</h1>
-        <div class="garis"></div>
-        <br>
-        <img src="logo sponsor buat web (HP) DPI300.png" class="logo-sponsor">
-      </div>
-    </section>
-  </section>
-</body>
-
-<footer class="footer">
-  <div class="footer">
-    <div class="row">
-      <div class="footer-col">
-        <h4>Media Sosial</h4>
-        <div class="social-links">
-          <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fab fa-google"></i></a>
-          <a href="https://www.instagram.com/AISCIkhwan/"><i class="fab fa-instagram"></i></a>
-          <a href="https://www.youtube.com/@kisah-timjurnalistiksmabpis/featured"><i class="fab fa-youtube"></i></a>
-          <a href="https://api.whatsapp.com/send?phone=+62 878-1212-3008&text=Assalamu'alaikum"><i class="fab fa-whatsapp"></i></a>
-        </div>
-      </div>
-      <div class="footer-col">
-        <h4>Layanan</h4>
-        <ul>
-          <li><a class="left" href="#">Bantuan</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Jelajahi</h4>
-        <ul>
-          <li><a class="left" href="https://www.bpibs.sch.id/">Tentang BPIBS</a></li>
-          <li><a class="left" href="https://lynk.id/aisc">Kontak Media</a></li>
-        </ul>
-      </div>
-      <div class="footer-col responsive-word">
-        <h4>Lokasi</h4>
-        <div class="img">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.688125385199!2d106.78595687491676!3d-6.560994964137734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5df9b885091%3A0x76de3f67900d4a3!2sBPIBS%20(Kampus%20Ikhwan)!5e0!3m2!1sid!2sid!4v1696057032231!5m2!1sid!2sid"
-            width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-      <div class="footer-col responsive-word2">
-        <h4>Lokasi</h4>
-        <div class="img">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.688125385199!2d106.78595687491676!3d-6.560994964137734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5df9b885091%3A0x76de3f67900d4a3!2sBPIBS%20(Kampus%20Ikhwan)!5e0!3m2!1sid!2sid!4v1696057032231!5m2!1sid!2sid"
-            width="370" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
+<!-- JavaScript -->
+<script src="card.js"></script>
 
 </html>
