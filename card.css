@@ -1,18 +1,13 @@
 /* Google Fonts - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-.competition {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .slide-container {
     max-width: 1120px;
     width: 100%;
     padding: 40px 0;
 }
+
+
 
 .slide-content {
     margin: 0 40px;
@@ -141,12 +136,40 @@
     background-color: #4070F4;
 }
 
+
 @media screen and (max-width: 768px) {
     .slide-content {
         margin: 0 10px;
     }
 
     .swiper-navBtn {
+        display: none;
+    }
+
+    .card-padding {
+        padding-top: 200%;
+    }
+
+    .box {
+        width: 100%;
+        height: 0px;
+        background-color: transparent; /* Green background */
+        color: white; /* White text */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+      }
+}
+
+@media screen and (min-width: 768px) {
+    .card-padding {
+        padding-top: 10000000%;
+    }
+
+    .box {
         display: none;
     }
 }
