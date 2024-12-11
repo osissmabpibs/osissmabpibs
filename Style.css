@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
+    
 }
 
 body{
@@ -14,6 +15,7 @@ body{
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #24262b;
 }
 
 .header {
@@ -261,7 +263,7 @@ body{
 }
 
 .up-footer {
-  margin-top: -190%;
+  margin-top: 10%;
 }
 
 /* Buat ilangin yg di hp */
@@ -282,4 +284,8 @@ body{
 
 .text-about {
   width: 10%;
+}
+
+.gap-hp {
+  padding-bottom: 100%;
 }
