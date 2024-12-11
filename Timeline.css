@@ -20,6 +20,7 @@ section {
   display: grid;
   grid-template-columns: 40% auto;
   justify-content: center;
+  
 }
 
 ul {
@@ -90,6 +91,8 @@ li p {
 @media screen and (min-width: 728px) {
   .timeline {
     display: block;
+    padding-bottom: 105%;
+    padding-top: 88%;
   }
 
   ul {
@@ -145,5 +148,12 @@ li p {
 
     transition: 1s linear;
     border-radius: 999px;
+  }
+}
+
+@media screen and (max-width: 728px) {
+  .timelinehp {
+    background-color: rgb(110, 212, 231);
+    z-index: -1000;
   }
 }
