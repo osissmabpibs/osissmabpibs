@@ -6,7 +6,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
-    
 }
 
 body{
@@ -16,6 +15,11 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #24262b;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+  display: none;
 }
 
 .header {
