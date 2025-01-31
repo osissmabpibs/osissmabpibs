@@ -25,7 +25,9 @@ ul{
 }
 
 .footer{
+	margin-top: auto;
 	background-color: #24262b;
+	margin-top: auto;
     padding: 40px 0;
 	bottom: 0;
 	position:relative;
