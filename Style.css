@@ -316,6 +316,9 @@ body::-webkit-scrollbar{
       float: none;
       display: none;
   }
+  html {
+    overflow-x: hidden;
+  }
 }
 
 @media (min-width:767px) {
