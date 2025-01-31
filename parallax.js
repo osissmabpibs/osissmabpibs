@@ -18,3 +18,19 @@ const stopScrollHeight = 6600;
         window.scrollTo(0, stopScrollHeight); // Fix the scroll position
       }
     });
+
+    const phoneMaxScrollHeight = 1700; // Define your max scroll height
+    const scrollMessage = document.getElementById('scrollMessage');
+
+    window.addEventListener('scroll', () => {
+      // Check if screen width is in phone mode (768px or less)
+      if (window.innerWidth <= 768) {
+        if (window.scrollY >= phoneMaxScrollHeight) {
+          // Lock scroll at max height
+          window.scrollTo(0, phoneMaxScrollHeight);
+          scrollMessage.style.display = 'block';
+        } else {
+          scrollMessage.style.display = 'none';
+        }
+      }
+    });
