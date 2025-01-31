@@ -293,3 +293,50 @@ body::-webkit-scrollbar{
 .gap-hp {
   padding-bottom: 100%;
 }
+
+.gapper {
+  padding-bottom: 80%;
+}
+
+/* Buat Video */
+@media (max-width:767px) {
+  #wrapper{
+      width: 100%;
+      height: auto;
+  }
+  #home1 {
+      width: 100%;
+      height: auto;
+      float: none;
+      display: none;
+  }
+  #home2 {
+      width: 100%;
+      height: auto;
+      float: none;
+      display: none;
+  }
+}
+
+@media (min-width:767px) {
+  #wrapper { 
+    width: auto; 
+    height: auto; 
+    margin-top: 1800px;
+  } 
+   
+  #home1 { 
+    float: left; 
+    margin-left: 7%;
+    padding-left: 15%;
+  } 
+  
+  #home2 { 
+    float: right;
+    padding-left: 50px;
+  }
+  
+  .clear{
+    clear: both;
+  }
+}
