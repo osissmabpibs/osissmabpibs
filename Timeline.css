@@ -3,7 +3,12 @@
   margin: 0 auto;
   position: relative;
   margin-top: 5%;
-  margin-bottom: 2000px;
+}
+
+@media screen and (min-width: 600px) {
+  .timeline {
+    margin-bottom: 2000px;
+  }
 }
 
 .timeline::after {
@@ -107,5 +112,9 @@
 
   .left {
     right: 0%;
+  }
+
+  .timeline {
+    margin-bottom: 500px;
   }
 }
